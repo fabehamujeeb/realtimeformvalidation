@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link src="script.js">
+    </head>
+    <body>
+        <h2>Real Time Validation Using JS</h2>
+        <form id="myForm" onsubmit="validate(event)">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" required>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message"></div>
+    </body>
+</html>
